@@ -92,19 +92,17 @@ textarea{
   padding-left: 30vw;
 }
 
-/*Media Query*/
-@media screen (max-width: 980px) {
+/*Media Query */
+@media screen and (max-width: 980px) {
   .body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
-
   .container {
-    .display: contents;
+    display: contents;
     justify-content: center;
   }
-  
   .row:hover {
     display: flex;
     font-size: 25px;
